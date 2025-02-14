@@ -1,4 +1,14 @@
-.header {
+.header-background {
+  width: 150px;
+  color: aqua;
+  position: relative;
+  &-menu {
+    position: absolute;
+  }
+}
+
+.header-background-image {
   width: 100%;
-  
+  position: relative;
+
 }
