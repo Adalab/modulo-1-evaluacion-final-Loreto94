@@ -1,7 +1,8 @@
 .header {
   &-tittles {
     display: flex;
-    justify-content: center;
+    direction: column;
+    margin-top: 0%;
   }
 
   &-menu {
@@ -10,13 +11,9 @@
   }
 
 }
-.header-background {
+.header-image {
   width: 100%;
   
-    
-  &-image {
-    width: 100%;
-  }
   
   
 }
