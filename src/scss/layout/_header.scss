@@ -1,14 +1,23 @@
-.header-background {
-  width: 150px;
-  color: aqua;
-  position: relative;
-  &-menu {
-    position: absolute;
+.header {
+  &-tittles {
+    display: flex;
+    justify-content: center;
   }
-}
 
-.header-background-image {
+  &-menu {
+    position: fixed;
+    top: 0;
+  }
+
+}
+.header-background {
   width: 100%;
-  position: relative;
-
+  
+    
+  &-image {
+    width: 100%;
+  }
+  
+  
 }
+
