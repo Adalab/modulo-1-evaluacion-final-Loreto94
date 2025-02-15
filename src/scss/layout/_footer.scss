@@ -1,3 +1,13 @@
 @use '../core/variables' as vars;
 
+.footer {
+    background-color: vars.$color-footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-list {
+        color: vars.$color-secondary-main;
+    }
+}
 
