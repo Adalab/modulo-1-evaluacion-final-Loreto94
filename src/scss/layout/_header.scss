@@ -4,18 +4,40 @@
   background-image: url(../images/cover.jpeg);
   background-size: cover;
   height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  
+
+  &-button {
+    background-color: vars.$color-main;
+    border-radius: 50%;
+    width: 60px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    
+
+  }
   
   &-tittles {
     font-family: vars.$font-main;
     text-align: center;
-  
-  &-first {
+    padding-top: 145%;
+
+    &-first {
     color: vars.$color-main;
-    font-size: 30px;
+    font-size: 35px;
+    line-height: 50px;
+    width: bold;
+    
     }
     &-second{
       color: vars.$color-main;
-      font-size: 16px;
+      font-size: 25px;
+      padding: 35px;
+      line-height: 19px;
+      font-family: vars.$font-secondary;
+
     }
   }
 
