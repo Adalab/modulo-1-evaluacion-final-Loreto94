@@ -10,11 +10,15 @@
     bottom: 15%;
     z-index: 1;
     font-family: vars.$font-main;
+    text-align: center;
     &-first {
       color: vars.$color-main;
+      font-size: 30px;
+    
     }
     &-second{
       color: vars.$color-main-font;
+      font-size: 16px;
     }
   }
 
@@ -22,6 +26,9 @@
     position: fixed;
     top: 0;
     background-color: vars.$color-main-button;
+    width: 36px;
+    height: 36px;
+    padding: 10px;
   }
 
 }
