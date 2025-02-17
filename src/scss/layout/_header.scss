@@ -1,23 +1,20 @@
 @use "../core/variables" as vars;
 
-.header {
-  position: relative;
-  top: 0;
+.hero {
+  background-image: url(../images/cover.jpeg);
+  background-size: cover;
+  height: 100vh;
   
-
   &-tittles {
-    position: absolute;
-    bottom: 15%;
-    z-index: 1;
     font-family: vars.$font-main;
     text-align: center;
-    &-first {
-      color: vars.$color-main;
-      font-size: 30px;
-    
+  
+  &-first {
+    color: vars.$color-main;
+    font-size: 30px;
     }
     &-second{
-      color: vars.$color-main-font;
+      color: vars.$color-main;
       font-size: 16px;
     }
   }
@@ -30,14 +27,10 @@
     height: 36px;
     padding: 10px;
   }
-.conteiner-image {
-  width: 100%;
+
 }
-}
-.header-image {
-  width: 100%;
   
   
   
-}
+
 

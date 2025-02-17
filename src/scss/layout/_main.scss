@@ -1,0 +1,32 @@
+@use "../core/variables" as vars;
+.first-main {
+    display: flex;
+    display: block;
+    padding: 15px;
+
+    &-tittle2 {
+        font-size: 13px;
+
+    }
+    &-tittle1 {
+        font-size: 22px;
+    }
+}
+.second-main {
+    background-color: vars.$color-secondary-main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+    &-hero {
+        
+        
+
+    }
+
+    &-image1 {
+        width: 40px;
+    }
+    
+}
